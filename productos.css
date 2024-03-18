@@ -1,0 +1,37 @@
+
+.productos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.productos li {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.productos h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.productos .producto-precio {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.productos li:hover {
+  transform: scale(1.01);
+  border: 2px solid #c78c19;
+}
+
+.productos li:active {
+  border: 2px solid #088c19;
+}
